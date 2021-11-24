@@ -1,0 +1,10 @@
+-------------------------------------------------------------------------------
+Test set: Login And Altas
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 2.417 s <<< FAILURE! - in Login And Altas
+Login And Altas. #2  Time elapsed: 2.417 s  <<< ERROR!
+net.serenitybdd.core.exceptions.StepInitialisationException: Failed to create step library for VisualizacionesAltas:Failed to create step library for WebElementFacade:Could not create type
+Caused by: net.serenitybdd.core.exceptions.StepInitialisationException: Failed to create step library for WebElementFacade:Could not create type
+Caused by: java.lang.IllegalArgumentException: Could not create type
+Caused by: java.lang.IllegalArgumentException: None of [public static java.lang.Object net.thucydides.core.steps.ProxyConfiguration$InterceptorDispatcher.intercept(java.lang.Object,java.lang.reflect.Method,java.lang.Object[],java.lang.Object,net.thucydides.core.steps.Interceptor,java.lang.reflect.Method) throws java.lang.Throwable] allows for delegation from public abstract java.lang.Object org.openqa.selenium.TakesScreenshot.getScreenshotAs(org.openqa.selenium.OutputType) throws org.openqa.selenium.WebDriverException
+

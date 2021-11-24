@@ -1,0 +1,444 @@
+<html xmlns="http://www.w3.org/1999/xhtml"><head><style type="text/css">.swal-icon--error{border-color:#f27474;-webkit-animation:animateErrorIcon .5s;animation:animateErrorIcon .5s}.swal-icon--error__x-mark{position:relative;display:block;-webkit-animation:animateXMark .5s;animation:animateXMark .5s}.swal-icon--error__line{position:absolute;height:5px;width:47px;background-color:#f27474;display:block;top:37px;border-radius:2px}.swal-icon--error__line--left{-webkit-transform:rotate(45deg);transform:rotate(45deg);left:17px}.swal-icon--error__line--right{-webkit-transform:rotate(-45deg);transform:rotate(-45deg);right:16px}@-webkit-keyframes animateErrorIcon{0%{-webkit-transform:rotateX(100deg);transform:rotateX(100deg);opacity:0}to{-webkit-transform:rotateX(0deg);transform:rotateX(0deg);opacity:1}}@keyframes animateErrorIcon{0%{-webkit-transform:rotateX(100deg);transform:rotateX(100deg);opacity:0}to{-webkit-transform:rotateX(0deg);transform:rotateX(0deg);opacity:1}}@-webkit-keyframes animateXMark{0%{-webkit-transform:scale(.4);transform:scale(.4);margin-top:26px;opacity:0}50%{-webkit-transform:scale(.4);transform:scale(.4);margin-top:26px;opacity:0}80%{-webkit-transform:scale(1.15);transform:scale(1.15);margin-top:-6px}to{-webkit-transform:scale(1);transform:scale(1);margin-top:0;opacity:1}}@keyframes animateXMark{0%{-webkit-transform:scale(.4);transform:scale(.4);margin-top:26px;opacity:0}50%{-webkit-transform:scale(.4);transform:scale(.4);margin-top:26px;opacity:0}80%{-webkit-transform:scale(1.15);transform:scale(1.15);margin-top:-6px}to{-webkit-transform:scale(1);transform:scale(1);margin-top:0;opacity:1}}.swal-icon--warning{border-color:#f8bb86;-webkit-animation:pulseWarning .75s infinite alternate;animation:pulseWarning .75s infinite alternate}.swal-icon--warning__body{width:5px;height:47px;top:10px;border-radius:2px;margin-left:-2px}.swal-icon--warning__body,.swal-icon--warning__dot{position:absolute;left:50%;background-color:#f8bb86}.swal-icon--warning__dot{width:7px;height:7px;border-radius:50%;margin-left:-4px;bottom:-11px}@-webkit-keyframes pulseWarning{0%{border-color:#f8d486}to{border-color:#f8bb86}}@keyframes pulseWarning{0%{border-color:#f8d486}to{border-color:#f8bb86}}.swal-icon--success{border-color:#a5dc86}.swal-icon--success:after,.swal-icon--success:before{content:"";border-radius:50%;position:absolute;width:60px;height:120px;background:#fff;-webkit-transform:rotate(45deg);transform:rotate(45deg)}.swal-icon--success:before{border-radius:120px 0 0 120px;top:-7px;left:-33px;-webkit-transform:rotate(-45deg);transform:rotate(-45deg);-webkit-transform-origin:60px 60px;transform-origin:60px 60px}.swal-icon--success:after{border-radius:0 120px 120px 0;top:-11px;left:30px;-webkit-transform:rotate(-45deg);transform:rotate(-45deg);-webkit-transform-origin:0 60px;transform-origin:0 60px;-webkit-animation:rotatePlaceholder 4.25s ease-in;animation:rotatePlaceholder 4.25s ease-in}.swal-icon--success__ring{width:80px;height:80px;border:4px solid hsla(98,55%,69%,.2);border-radius:50%;box-sizing:content-box;position:absolute;left:-4px;top:-4px;z-index:2}.swal-icon--success__hide-corners{width:5px;height:90px;background-color:#fff;padding:1px;position:absolute;left:28px;top:8px;z-index:1;-webkit-transform:rotate(-45deg);transform:rotate(-45deg)}.swal-icon--success__line{height:5px;background-color:#a5dc86;display:block;border-radius:2px;position:absolute;z-index:2}.swal-icon--success__line--tip{width:25px;left:14px;top:46px;-webkit-transform:rotate(45deg);transform:rotate(45deg);-webkit-animation:animateSuccessTip .75s;animation:animateSuccessTip .75s}.swal-icon--success__line--long{width:47px;right:8px;top:38px;-webkit-transform:rotate(-45deg);transform:rotate(-45deg);-webkit-animation:animateSuccessLong .75s;animation:animateSuccessLong .75s}@-webkit-keyframes rotatePlaceholder{0%{-webkit-transform:rotate(-45deg);transform:rotate(-45deg)}5%{-webkit-transform:rotate(-45deg);transform:rotate(-45deg)}12%{-webkit-transform:rotate(-405deg);transform:rotate(-405deg)}to{-webkit-transform:rotate(-405deg);transform:rotate(-405deg)}}@keyframes rotatePlaceholder{0%{-webkit-transform:rotate(-45deg);transform:rotate(-45deg)}5%{-webkit-transform:rotate(-45deg);transform:rotate(-45deg)}12%{-webkit-transform:rotate(-405deg);transform:rotate(-405deg)}to{-webkit-transform:rotate(-405deg);transform:rotate(-405deg)}}@-webkit-keyframes animateSuccessTip{0%{width:0;left:1px;top:19px}54%{width:0;left:1px;top:19px}70%{width:50px;left:-8px;top:37px}84%{width:17px;left:21px;top:48px}to{width:25px;left:14px;top:45px}}@keyframes animateSuccessTip{0%{width:0;left:1px;top:19px}54%{width:0;left:1px;top:19px}70%{width:50px;left:-8px;top:37px}84%{width:17px;left:21px;top:48px}to{width:25px;left:14px;top:45px}}@-webkit-keyframes animateSuccessLong{0%{width:0;right:46px;top:54px}65%{width:0;right:46px;top:54px}84%{width:55px;right:0;top:35px}to{width:47px;right:8px;top:38px}}@keyframes animateSuccessLong{0%{width:0;right:46px;top:54px}65%{width:0;right:46px;top:54px}84%{width:55px;right:0;top:35px}to{width:47px;right:8px;top:38px}}.swal-icon--info{border-color:#c9dae1}.swal-icon--info:before{width:5px;height:29px;bottom:17px;border-radius:2px;margin-left:-2px}.swal-icon--info:after,.swal-icon--info:before{content:"";position:absolute;left:50%;background-color:#c9dae1}.swal-icon--info:after{width:7px;height:7px;border-radius:50%;margin-left:-3px;top:19px}.swal-icon{width:80px;height:80px;border-width:4px;border-style:solid;border-radius:50%;padding:0;position:relative;box-sizing:content-box;margin:20px auto}.swal-icon:first-child{margin-top:32px}.swal-icon--custom{width:auto;height:auto;max-width:100%;border:none;border-radius:0}.swal-icon img{max-width:100%;max-height:100%}.swal-title{color:rgba(0,0,0,.65);font-weight:600;text-transform:none;position:relative;display:block;padding:13px 16px;font-size:27px;line-height:normal;text-align:center;margin-bottom:0}.swal-title:first-child{margin-top:26px}.swal-title:not(:first-child){padding-bottom:0}.swal-title:not(:last-child){margin-bottom:13px}.swal-text{font-size:16px;position:relative;float:none;line-height:normal;vertical-align:top;text-align:left;display:inline-block;margin:0;padding:0 10px;font-weight:400;color:rgba(0,0,0,.64);max-width:calc(100% - 20px);overflow-wrap:break-word;box-sizing:border-box}.swal-text:first-child{margin-top:45px}.swal-text:last-child{margin-bottom:45px}.swal-footer{text-align:right;padding-top:13px;margin-top:13px;padding:13px 16px;border-radius:inherit;border-top-left-radius:0;border-top-right-radius:0}.swal-button-container{margin:5px;display:inline-block;position:relative}.swal-button{background-color:#7cd1f9;color:#fff;border:none;box-shadow:none;border-radius:5px;font-weight:600;font-size:14px;padding:10px 24px;margin:0;cursor:pointer}.swal-button:not([disabled]):hover{background-color:#78cbf2}.swal-button:active{background-color:#70bce0}.swal-button:focus{outline:none;box-shadow:0 0 0 1px #fff,0 0 0 3px rgba(43,114,165,.29)}.swal-button[disabled]{opacity:.5;cursor:default}.swal-button::-moz-focus-inner{border:0}.swal-button--cancel{color:#555;background-color:#efefef}.swal-button--cancel:not([disabled]):hover{background-color:#e8e8e8}.swal-button--cancel:active{background-color:#d7d7d7}.swal-button--cancel:focus{box-shadow:0 0 0 1px #fff,0 0 0 3px rgba(116,136,150,.29)}.swal-button--danger{background-color:#e64942}.swal-button--danger:not([disabled]):hover{background-color:#df4740}.swal-button--danger:active{background-color:#cf423b}.swal-button--danger:focus{box-shadow:0 0 0 1px #fff,0 0 0 3px rgba(165,43,43,.29)}.swal-content{padding:0 20px;margin-top:20px;font-size:medium}.swal-content:last-child{margin-bottom:20px}.swal-content__input,.swal-content__textarea{-webkit-appearance:none;background-color:#fff;border:none;font-size:14px;display:block;box-sizing:border-box;width:100%;border:1px solid rgba(0,0,0,.14);padding:10px 13px;border-radius:2px;transition:border-color .2s}.swal-content__input:focus,.swal-content__textarea:focus{outline:none;border-color:#6db8ff}.swal-content__textarea{resize:vertical}.swal-button--loading{color:transparent}.swal-button--loading~.swal-button__loader{opacity:1}.swal-button__loader{position:absolute;height:auto;width:43px;z-index:2;left:50%;top:50%;-webkit-transform:translateX(-50%) translateY(-50%);transform:translateX(-50%) translateY(-50%);text-align:center;pointer-events:none;opacity:0}.swal-button__loader div{display:inline-block;float:none;vertical-align:baseline;width:9px;height:9px;padding:0;border:none;margin:2px;opacity:.4;border-radius:7px;background-color:hsla(0,0%,100%,.9);transition:background .2s;-webkit-animation:swal-loading-anim 1s infinite;animation:swal-loading-anim 1s infinite}.swal-button__loader div:nth-child(3n+2){-webkit-animation-delay:.15s;animation-delay:.15s}.swal-button__loader div:nth-child(3n+3){-webkit-animation-delay:.3s;animation-delay:.3s}@-webkit-keyframes swal-loading-anim{0%{opacity:.4}20%{opacity:.4}50%{opacity:1}to{opacity:.4}}@keyframes swal-loading-anim{0%{opacity:.4}20%{opacity:.4}50%{opacity:1}to{opacity:.4}}.swal-overlay{position:fixed;top:0;bottom:0;left:0;right:0;text-align:center;font-size:0;overflow-y:auto;background-color:rgba(0,0,0,.4);z-index:10000;pointer-events:none;opacity:0;transition:opacity .3s}.swal-overlay:before{content:" ";display:inline-block;vertical-align:middle;height:100%}.swal-overlay--show-modal{opacity:1;pointer-events:auto}.swal-overlay--show-modal .swal-modal{opacity:1;pointer-events:auto;box-sizing:border-box;-webkit-animation:showSweetAlert .3s;animation:showSweetAlert .3s;will-change:transform}.swal-modal{width:478px;opacity:0;pointer-events:none;background-color:#fff;text-align:center;border-radius:5px;position:static;margin:20px auto;display:inline-block;vertical-align:middle;-webkit-transform:scale(1);transform:scale(1);-webkit-transform-origin:50% 50%;transform-origin:50% 50%;z-index:10001;transition:opacity .2s,-webkit-transform .3s;transition:transform .3s,opacity .2s;transition:transform .3s,opacity .2s,-webkit-transform .3s}@media (max-width:500px){.swal-modal{width:calc(100% - 20px)}}@-webkit-keyframes showSweetAlert{0%{-webkit-transform:scale(1);transform:scale(1)}1%{-webkit-transform:scale(.5);transform:scale(.5)}45%{-webkit-transform:scale(1.05);transform:scale(1.05)}80%{-webkit-transform:scale(.95);transform:scale(.95)}to{-webkit-transform:scale(1);transform:scale(1)}}@keyframes showSweetAlert{0%{-webkit-transform:scale(1);transform:scale(1)}1%{-webkit-transform:scale(.5);transform:scale(.5)}45%{-webkit-transform:scale(1.05);transform:scale(1.05)}80%{-webkit-transform:scale(.95);transform:scale(.95)}to{-webkit-transform:scale(1);transform:scale(1)}}</style><title>Sistema de Acuerdos</title><link href="../Styles/bootstrap.min.css" rel="stylesheet"><link href="../Styles/custom.css" rel="stylesheet"><link href="../Styles/Controls.css" rel="stylesheet"><link href="../Styles/Configuracion.css" rel="stylesheet"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css"><link rel="stylesheet" href="../Styles/carrousel.css">
+    
+    <script src="/Scripts/Jquery-3.5.1.min.js"></script>
+    <script src="/Scripts/bootstrap.min.js"></script>
+    <script src="/Scripts/sweetalert.min.js"></script>
+    
+    <link href="../Styles/Configuracion.css" rel="stylesheet">
+</head>
+<body>
+
+    <form method="post" action="./" id="form1">
+<div class="aspNetHidden">
+
+
+
+</div>
+
+<script type="text/javascript">
+//<![CDATA[
+var theForm = document.forms['form1'];
+if (!theForm) {
+    theForm = document.form1;
+}
+function __doPostBack(eventTarget, eventArgument) {
+    if (!theForm.onsubmit || (theForm.onsubmit() != false)) {
+        theForm.__EVENTTARGET.value = eventTarget;
+        theForm.__EVENTARGUMENT.value = eventArgument;
+        theForm.submit();
+    }
+}
+//]]>
+</script>
+
+
+<script src="/WebResource.axd?d=pynGkmcFUV13He1Qd6_TZJPRtv_ITcUJm9qyqVWA9_6DCuE14QwZ49PfkNAAUncB7OHJ_9ZSVBOvVfFYRYFDbg2&amp;t=637453961640000000" type="text/javascript"></script>
+
+
+<script type="text/javascript">
+//<![CDATA[
+var __cultureInfo = {"name":"es-ES","numberFormat":{"CurrencyDecimalDigits":2,"CurrencyDecimalSeparator":",","IsReadOnly":true,"CurrencyGroupSizes":[3],"NumberGroupSizes":[3],"PercentGroupSizes":[3],"CurrencyGroupSeparator":".","CurrencySymbol":"€","NaNSymbol":"NaN","CurrencyNegativePattern":8,"NumberNegativePattern":1,"PercentPositivePattern":0,"PercentNegativePattern":0,"NegativeInfinitySymbol":"-Infinito","NegativeSign":"-","NumberDecimalDigits":2,"NumberDecimalSeparator":",","NumberGroupSeparator":".","CurrencyPositivePattern":3,"PositiveInfinitySymbol":"Infinito","PositiveSign":"+","PercentDecimalDigits":2,"PercentDecimalSeparator":",","PercentGroupSeparator":".","PercentSymbol":"%","PerMilleSymbol":"‰","NativeDigits":["0","1","2","3","4","5","6","7","8","9"],"DigitSubstitution":1},"dateTimeFormat":{"AMDesignator":"","Calendar":{"MinSupportedDateTime":"\/Date(-62135586000000)\/","MaxSupportedDateTime":"\/Date(253402300799999)\/","AlgorithmType":1,"CalendarType":1,"Eras":[1],"TwoDigitYearMax":2029,"IsReadOnly":true},"DateSeparator":"/","FirstDayOfWeek":1,"CalendarWeekRule":2,"FullDateTimePattern":"dddd, d\u0027 de \u0027MMMM\u0027 de \u0027yyyy H:mm:ss","LongDatePattern":"dddd, d\u0027 de \u0027MMMM\u0027 de \u0027yyyy","LongTimePattern":"H:mm:ss","MonthDayPattern":"d\u0027 de \u0027MMMM","PMDesignator":"","RFC1123Pattern":"ddd, dd MMM yyyy HH\u0027:\u0027mm\u0027:\u0027ss \u0027GMT\u0027","ShortDatePattern":"dd/MM/yyyy","ShortTimePattern":"H:mm","SortableDateTimePattern":"yyyy\u0027-\u0027MM\u0027-\u0027dd\u0027T\u0027HH\u0027:\u0027mm\u0027:\u0027ss","TimeSeparator":":","UniversalSortableDateTimePattern":"yyyy\u0027-\u0027MM\u0027-\u0027dd HH\u0027:\u0027mm\u0027:\u0027ss\u0027Z\u0027","YearMonthPattern":"MMMM\u0027 de \u0027yyyy","AbbreviatedDayNames":["do.","lu.","ma.","mi.","ju.","vi.","sá."],"ShortestDayNames":["D","L","M","X","J","V","S"],"DayNames":["domingo","lunes","martes","miércoles","jueves","viernes","sábado"],"AbbreviatedMonthNames":["ene.","feb.","mar.","abr.","may.","jun.","jul.","ago.","sep.","oct.","nov.","dic.",""],"MonthNames":["enero","febrero","marzo","abril","mayo","junio","julio","agosto","septiembre","octubre","noviembre","diciembre",""],"IsReadOnly":true,"NativeCalendarName":"calendario gregoriano","AbbreviatedMonthGenitiveNames":["ene.","feb.","mar.","abr.","may.","jun.","jul.","ago.","sep.","oct.","nov.","dic.",""],"MonthGenitiveNames":["enero","febrero","marzo","abril","mayo","junio","julio","agosto","septiembre","octubre","noviembre","diciembre",""]},"eras":[1,"d. C.",null,0]};//]]>
+</script>
+
+<script src="/ScriptResource.axd?d=zc7utP8BYx0K_fLPu4cBGKKRu656_Yi6uTrFyuiZD15IPXiHOH1w1lWZSAHY1mXbYRkGDhV0pqfQyeZKsjZ5wS_Jpm5dZ-8gYdP3BPZ3ukgLofBznrqZw8PmbTjimuJF_49qNpwPvJ4kfvpX3V9bK1H9whqJhs8Jo82AJuZBXoc1&amp;t=2fe674eb" type="text/javascript"></script>
+<script src="/ScriptResource.axd?d=pnfgW_rnL4FVkco8Do2uNaALXVk0iUDG1OPJWEEWvOuPweQvhZBcLMWd84m6lJg9Mrq_j7arRE7HlUlZ9RhSakpt5Y3ZruVcGHjRJX1txyYTVXk2oYdPvMfSEwasvM2J9UDcbjVnP4zJKps9ZS5cc42EVY0_3PIUHnk4JDEm0gU1&amp;t=2fe674eb" type="text/javascript"></script>
+<div class="aspNetHidden">
+
+	
+	
+	
+</div>
+        <script type="text/javascript">
+//<![CDATA[
+Sys.WebForms.PageRequestManager._initialize('ctl00$ScriptManager1', 'form1', ['tctl00$ContentPlaceHolder1$ControlTiposAcuerdo$UpnlMessage','ContentPlaceHolder1_ControlTiposAcuerdo_UpnlMessage'], [], [], 90, 'ctl00');
+//]]>
+</script>
+
+        <div class="header_block">
+            <span>SISTEMA ACUERDOS</span>
+        </div>
+        <div>
+            
+            <div onkeypress="javascript:return WebForm_FireDefaultButton(event, 'btnNothing')">
+	
+                
+    <div class="d-flex">
+        <div class="btn-secondary text-center form-control font-weight-bold text-uppercase square-button">Configuraciones</div>
+    </div>
+
+    <nav class="navbar navbar-expand-lg navbar-light bg-light config-nav  w-100 p-0">
+        <div class="" id="navbarSupportedContent  w-100" style="width: 100%">
+            <ul class="navbar-nav w-100 mr-auto" style="width: 100%">
+                <li class="nav-item dropdown w-100">
+                    <input type="submit" name="ctl00$ContentPlaceHolder1$btnAltas" value="Altas" id="ContentPlaceHolder1_btnAltas" class="text-uppercase nav-link dropdown-toggle btnMenuConfiguracion btnMenuConfiguracionNav  color_white_configuraciones" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    <div class="dropdown-menu pt-0" aria-labelledby="navbarDropdown">
+                        <input type="submit" name="ctl00$ContentPlaceHolder1$btnPerfilesAlta" value="Perfiles" id="ContentPlaceHolder1_btnPerfilesAlta" class="d-block w-100 text-uppercase dropdown-item btnSubMenuConfiguracion btnSubMenuConfiguracionNav">
+                        <input type="submit" name="ctl00$ContentPlaceHolder1$btnUsuariosAlta" value="Usuarios" id="ContentPlaceHolder1_btnUsuariosAlta" class="d-block w-100 text-uppercase dropdown-item btnSubMenuConfiguracion btnSubMenuConfiguracionNav">
+                        <input type="submit" name="ctl00$ContentPlaceHolder1$btnTipoAcuerdoAlta" value="Tipos de Acuerdo" id="ContentPlaceHolder1_btnTipoAcuerdoAlta" class="d-block w-100 text-uppercase dropdown-item btnSubMenuConfiguracion btnSubMenuConfiguracionNav">
+                        <input type="submit" name="ctl00$ContentPlaceHolder1$btnDelegacionesAlta" value="Delegaciones" id="ContentPlaceHolder1_btnDelegacionesAlta" class="d-block w-100 text-uppercase dropdown-item btnSubMenuConfiguracion btnSubMenuConfiguracionNav">
+                        <input type="submit" name="ctl00$ContentPlaceHolder1$btnEstadoExpedienteAlta" value="Estado Expedientes" id="ContentPlaceHolder1_btnEstadoExpedienteAlta" class="d-block w-100 text-uppercase dropdown-item btnSubMenuConfiguracion btnSubMenuConfiguracionNav">
+                    </div>
+                </li>
+                <li class="nav-item dropdown w-100">
+                    <input type="submit" name="ctl00$ContentPlaceHolder1$btnBajas" value="Bajas" id="ContentPlaceHolder1_btnBajas" class="text-uppercase nav-link dropdown-toggle btnMenuConfiguracion btnMenuConfiguracionNav" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    <div class="dropdown-menu pt-0" aria-labelledby="navbarDropdown">
+                        <input type="submit" name="ctl00$ContentPlaceHolder1$btnPerfilesBaja" value="Perfiles" id="ContentPlaceHolder1_btnPerfilesBaja" class="d-block  text-uppercase dropdown-item btnSubMenuConfiguracion btnSubMenuConfiguracionNav">
+                        <input type="submit" name="ctl00$ContentPlaceHolder1$btnUsuariosBaja" value="Usuarios" id="ContentPlaceHolder1_btnUsuariosBaja" class="d-block text-uppercase dropdown-item btnSubMenuConfiguracion btnSubMenuConfiguracionNav">
+                        <input type="submit" name="ctl00$ContentPlaceHolder1$btnTipoAcuerdoBaja" value="Tipos de Acuerdo" id="ContentPlaceHolder1_btnTipoAcuerdoBaja" class="d-block text-uppercase dropdown-item btnSubMenuConfiguracion btnSubMenuConfiguracionNav">
+                        <input type="submit" name="ctl00$ContentPlaceHolder1$btnDelegacionesBaja" value="Delegaciones" id="ContentPlaceHolder1_btnDelegacionesBaja" class="d-block  text-uppercase dropdown-item btnSubMenuConfiguracion btnSubMenuConfiguracionNav">
+                        <input type="submit" name="ctl00$ContentPlaceHolder1$btnEstadoExpedienteBaja" value="Estado Expedientes" id="ContentPlaceHolder1_btnEstadoExpedienteBaja" class="d-block  text-uppercase dropdown-item btnSubMenuConfiguracion btnSubMenuConfiguracionNav">
+                    </div>
+                </li>
+                <li class="nav-item dropdown w-100">
+                    <input type="submit" name="ctl00$ContentPlaceHolder1$btnModificaciones" value="Modificaciones" id="ContentPlaceHolder1_btnModificaciones" class="text-uppercase nav-link dropdown-toggle btnMenuConfiguracion btnMenuConfiguracionNav" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    <div class="dropdown-menu pt-0" aria-labelledby="navbarDropdown">
+                        <input type="submit" name="ctl00$ContentPlaceHolder1$btnPerfilesModificacion" value="Perfiles" id="ContentPlaceHolder1_btnPerfilesModificacion" class="d-block text-uppercase dropdown-item btnSubMenuConfiguracion btnSubMenuConfiguracionNav">
+                        <input type="submit" name="ctl00$ContentPlaceHolder1$btnUsuariosModificacion" value="Usuarios" id="ContentPlaceHolder1_btnUsuariosModificacion" class="d-block text-uppercase dropdown-item btnSubMenuConfiguracion btnSubMenuConfiguracionNav">
+                        <input type="submit" name="ctl00$ContentPlaceHolder1$btnTipoAcuerdoModificacion" value="Tipos de Acuerdo" id="ContentPlaceHolder1_btnTipoAcuerdoModificacion" class="d-block text-uppercase dropdown-item btnSubMenuConfiguracion btnSubMenuConfiguracionNav">
+                        <input type="submit" name="ctl00$ContentPlaceHolder1$btnDelegacionesModificacion" value="Delegaciones" id="ContentPlaceHolder1_btnDelegacionesModificacion" class="d-block  text-uppercase dropdown-item btnSubMenuConfiguracion btnSubMenuConfiguracionNav">
+                        <input type="submit" name="ctl00$ContentPlaceHolder1$btnEstadoExpedienteModificacion" value="Estado Expedientes" id="ContentPlaceHolder1_btnEstadoExpedienteModificacion" class="d-block  text-uppercase dropdown-item btnSubMenuConfiguracion btnSubMenuConfiguracionNav">
+                    </div>
+                </li>
+                <li class="nav-item w-100 ">
+                    <input type="submit" name="ctl00$ContentPlaceHolder1$btnAuditoria" value="Auditoría" id="ContentPlaceHolder1_btnAuditoria" disabled="disabled" class="aspNetDisabled d-block text-uppercase btnMenuConfiguracion btnMenuConfiguracionNav">
+                </li>
+                <li class="nav-item w-100 ">
+                    <input type="submit" name="ctl00$ContentPlaceHolder1$btnVolver" value="Volver a Inicio" id="ContentPlaceHolder1_btnVolver" class="d-block text-uppercase btnMenuConfiguracion btnMenuConfiguracionNav">
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <input type="hidden" name="ctl00$ContentPlaceHolder1$ConfigSeleccionado" id="ContentPlaceHolder1_ConfigSeleccionado" value="Altas">
+
+    
+
+    
+    
+    
+    
+   
+    
+    <link href="../Styles/bootstrap.min.css" rel="stylesheet">
+    <link href="../Styles/custom.css" rel="stylesheet">
+    <link href="../Styles/Controls.css" rel="stylesheet">
+    <link href="../Styles/Configuracion.css" rel="stylesheet">
+    
+    <script src="/Scripts/Jquery-3.5.1.min.js"></script>
+    <script src="/Scripts/bootstrap.min.js"></script>
+
+    <div id="ContentPlaceHolder1_ControlTiposAcuerdo_altaTiposAcuerdo">
+         <div class="wrapper fadeInDown pt-5">
+            <div id="formContent">
+                <div id="ContentPlaceHolder1_ControlTiposAcuerdo_UpnlMessage">
+                        <div class="card border-light mb-3 font-weight-bold" id="divBorderCard">
+                            <div class="card-header">
+                                Alta Tipos de Acuerdo
+                            </div>
+                            
+                        </div>
+                        <div class="">
+                            <input name="ctl00$ContentPlaceHolder1$ControlTiposAcuerdo$txtCodigo" type="text" value="CoasZ3" maxlength="6" id="ContentPlaceHolder1_ControlTiposAcuerdo_txtCodigo" class=" second" placeholder="Código">
+                            <input name="ctl00$ContentPlaceHolder1$ControlTiposAcuerdo$txtAcuerdo" type="text" value="horas3" maxlength="30" id="ContentPlaceHolder1_ControlTiposAcuerdo_txtAcuerdo" class=" third" placeholder="Tipo de Acuerdo">                            
+                            <input type="submit" name="ctl00$ContentPlaceHolder1$ControlTiposAcuerdo$btnGuardarTipoAcuerdo" value="GUARDAR" id="ContentPlaceHolder1_ControlTiposAcuerdo_btnGuardarTipoAcuerdo" class=" fourth mb-1 btnMenuConfiguracion">
+                            <input type="submit" name="ctl00$ContentPlaceHolder1$ControlTiposAcuerdo$btnCerrar" value="CERRAR" id="ContentPlaceHolder1_ControlTiposAcuerdo_btnCerrar" class=" second mb-1 btnCancelar btnMenuConfiguracion">
+                            <input type="submit" name="ctl00$ContentPlaceHolder1$ControlTiposAcuerdo$btnConfirmCerrarModalAlta" value="" id="ContentPlaceHolder1_ControlTiposAcuerdo_btnConfirmCerrarModalAlta" style="display: none">
+                        </div>
+                        <div class="mt-3">
+                            <span id="ContentPlaceHolder1_ControlTiposAcuerdo_lblmessage" class="alert alert-danger fadeIn lblmessage">El Código ingresado ya existe</span>
+                        </div>
+                    </div>
+            </div>
+        </div>
+    </div>
+
+
+
+
+<script>
+    function confirmCancelModal() {
+        swal({
+            title: "¿Está seguro que desea salir?",
+            text: "Podría perder los cambios sin guardar.",
+            icon: "warning",
+            buttons: ["Continuar Editando", "Salir"],
+            dangerMode: true,
+        })
+            .then((cancelar) => {
+                if (cancelar) {
+                    $('#ContentPlaceHolder1_ControlTiposAcuerdo_btnConfirmCerrarModal').click();
+                }
+            });
+    }
+    function confirmCancelModalAlta() {
+        swal({
+            title: "¿Está seguro que desea salir?",
+            text: "Podría perder los cambios sin guardar.",
+            icon: "warning",
+            buttons: ["Continuar Editando", "Salir"],
+            dangerMode: true,
+        })
+            .then((cancelar) => {
+                if (cancelar) {
+                    $('#ContentPlaceHolder1_ControlTiposAcuerdo_btnConfirmCerrarModalAlta').click();
+                }
+            });
+        }
+</script>
+
+    
+    
+    
+
+    <script type="text/javascript">
+        function ControlUsuario()
+        {
+            __doPostBack();
+        }
+    </script>
+
+                
+                <input type="submit" name="ctl00$btnNothing" value="text" id="btnNothing" disabled="disabled" class="aspNetDisabled" style="display: none;">
+            
+</div>
+        </div>
+        <div class="footer">
+            <div class="block_footer">
+            </div>
+            <div class="footer_table">
+                <span id="lblFooterUser">Victor222</span>
+                <span id="lblFooterPerfil">Administrador</span>
+                <span id="lblFooterDelegacion">CAÑAS</span>
+                <input type="submit" name="ctl00$btnCambiarContraseña" value="Cambiar Contraseña" id="btnCambiarContraseña" class="footer_buttons">
+                <input type="submit" name="ctl00$btnCerrarSesion" value="Cerrar Sesión" id="btnCerrarSesion" class="footer_buttons">
+            </div>
+        </div>
+    <span style="display: none !important;"><input type="hidden" name="__LASTFOCUS" id="__LASTFOCUS" value=""></span><span style="display: none !important;"><input type="hidden" name="__VIEWSTATE" id="__VIEWSTATE" value="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"></span><span style="display: none !important;"><input type="hidden" name="__VIEWSTATEGENERATOR" id="__VIEWSTATEGENERATOR" value="2D2186AD"></span><span style="display: none !important;"><input type="hidden" name="__EVENTTARGET" id="__EVENTTARGET" value=""></span><span style="display: none !important;"><input type="hidden" name="__EVENTARGUMENT" id="__EVENTARGUMENT" value=""></span><span style="display: none !important;"><input type="hidden" name="__VIEWSTATEENCRYPTED" id="__VIEWSTATEENCRYPTED" value=""></span><span style="display: none !important;"><input type="hidden" name="__EVENTVALIDATION" id="__EVENTVALIDATION" value="ZjMu5lu/FUVCs65K4Chj9Utk9UU93ljrdThAv/wy2ytglC0WVlROWh9R1njUjv55cYo7vdFPbfaedrR3qw+hxsge5CBlP42yrZzekUyRhaZjBsIqX3Nuunk8VmLdZV/X913dZuNg6sOPc7IaKrl4VB3dppkvrjUCk6NmRh11+3Jac4iiHNZ5C0Gu3Zzv941XzBymksueQg5AqFeB/AmkXIf4SgS/cbcjRQPWRXZj0wzIpiSmy0lGBNtnjFu/b+gsjSJ+Hg6X+li8tMHwO7ZeMvx9+ZSB4hdeThvFoPr8MUCCFowOunR6H5GjUsueSPFXQkpp8hwYqDR6VzVF0y526o4jvenItfNXE1mbZ70tEha2Mv69EkO7SfDcGG0ZCjjMSgytqchpvoiETrTvu6+trtLhA1vLJZmhZVvjzk0fsGKo6Lu8A3LKF3dp102rtVr1fqzd2w5OnUWBV5Vxme688xAks2+592XtQ9h0wOo3KVUvT0xhLecLS3U2RX1amlKjgeRKD+zNg6zw8Ney1yMWiyNYDSX4coiTqX5gfRnD+GBKFkU2Rcj7QyQhBUnyi117b7Q7DjHRBVSBvj8JLa3a1LJelWimag8FZeZt9KS2ae4u++FUDhSnaYbCuP6dFZYvMse1WTDnlG3i/ApdA+dvTqK8kPMbLJZW3oV7ZFjgnzDVNfzQbVLSKWthrciGU59inTGjPNoKPCYEoi0mJ+Y3cA=="></span></form>
+    
+    <div id="modalSpinner" class="modal content1 align-middle" tabindex="-1" role="dialog" aria-labelledby="simpleModalLabel" aria-hidden="true" data-backdrop="static">
+        <div class="modal-dialog modal-dialog-centered " style="width: 300px" role="document">
+            <div class="modal-content">
+                <div class="modal-body">
+                    <div class="row">
+                        <div class="text-center" style="margin: auto">
+                            <img id="spinnerImage" alt="Cargando..." src="../Images/spinner.gif" style="width: 25%; height: 25%;">
+                            <h5>Aguarde por favor..</h5>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <script>    
+        function bloquearInput(event) {
+            event.preventDefault();
+        }
+ 
+        $('.validar-fecha').on('keydown', function (evt) {//funcion llamada al presionar tecla
+            evt = (evt) ? evt : window.event;
+            var charcode = (evt.which) ? evt.which : evt.keyCode;
+            if (evt.shiftKey) {
+                if (charcode > 31 && (charcode !== 55))//valída barra introducida con shift + 7
+                    return false;
+                else
+                    return true;
+            }
+            else if (charcode > 31 && (charcode < 48 || charcode > 57) && charcode !== 47 && (charcode < 96 || charcode > 105) && charcode !== 111 && charcode !== 37 && charcode !== 39 && charcode !== 46) {
+                return false;
+            }
+            return true;
+        });
+
+        $('.validar-fecha').on('blur', function (event) {//Función se llama al dejar de hacer focus en el textbox
+            var elemento = event.currentTarget;//se obtiene el elemento
+                                                                                                    
+            if (elemento != null) {//el elemento es distinto de null?
+
+                var strFecha = elemento.value;//Se obtiene el valor del elemento(en este caso una fecha)
+
+                var diaUnDigito = strFecha.slice(1, 2);//se obtiene el caracter número 1 de la cadena(para saber si el día tiene un solo dígito)
+                if (diaUnDigito == '/') //se verifica si el segundo caractér de la cadena es un "/"
+                {
+                    strFecha = "0" + strFecha;//Se agrega un 0 en la primera posición de la cadena
+
+                }
+                var mesUnDigito = strFecha.slice(4, 5);//se obtiene el caracter número 4 de la cadena(para saber si el mes tiene un solo dígito)
+                if (mesUnDigito == '/')//se verifica si el quinto caractér de la cadena es un "/"
+                {
+                    strFecha=strFecha.slice(0,3) + "0" + strFecha.slice(3);//Se le agrega un 0 al mes
+
+                }
+                //Se verifica si la fecha es valida mediante una expresión regular
+                var format_regex = /(^(((0[1-9]|1[0-9]|2[0-8])[\/](0[1-9]|1[012]))|((29|30|31)[\/](0[13578]|1[02]))|((29|30)[\/](0[4,6,9]|11)))[\/](19|[2-9][0-9])\d\d$)|(^29[\/]02[\/](19|[2-9][0-9])(00|04|08|12|16|20|24|28|32|36|40|44|48|52|56|60|64|68|72|76|80|84|88|92|96)$)/;
+
+                if (!format_regex.test(strFecha))//La fecha no es válida?
+                {
+                    elemento.value = "";//Se vacia el textbox
+
+                    return;
+                }
+                else {
+                    var year = parseInt(strFecha.slice(6, 11));//Se obtiene el año
+
+                    if (year > 2199) {//El año es mayor a 2199?
+                        elemento.value = "";//Se vacía el textbox
+                        return;
+                    }
+                }
+            }
+        });
+
+        $('.validar-fecha').attr("placeholder", "dd/mm/aaaa");//Placeholder "dd/mm/aaaa"
+
+        $('.solo-enteros').keydown(function (e) {
+            //if (e.which.toString().length > 3) {
+            //    e.preventDefault();
+            //    return;
+            //}
+            if (e.shiftKey) {
+                return false;
+            }
+            const teclasHabilitadas = [8, 9, 37, 39, 46];
+            /*
+            8 backspace
+            9 tab
+            37 flecha izq
+            39 flecha der
+            46 supr
+            48-57 numeros teclado alfabético
+            96-105 numeros numericpad*/
+            if (e.keyCode >= 48 && e.keyCode <= 57 || e.keyCode >= 96 && e.keyCode <= 105 || teclasHabilitadas.includes(e.keyCode)) {
+            }
+            else {
+                return false;
+            }
+        });
+
+        $('.solo-enteros').on('blur', function (event) {
+            var elemento = event.currentTarget;//se obtiene el elemento
+
+            if (elemento != null) {
+                var strTelefono = elemento.value;//Se obtiene la cadena de texto
+                var format_regex = /^\d+$/;//Formato solo numeros
+                if (!format_regex.test(strTelefono)) {
+                    elemento.value = "";//Se vacia el textbox
+                    return;
+                }
+                else {
+                    elemento.value=elemento.value.replace(/^[0]+/g, "");//Se eliminan los 0 a la izquierda
+                }
+            }
+        });
+
+        //Se replican funciones para que funcionen dentro del UpdatePanel
+        var prm = Sys.WebForms.PageRequestManager.getInstance();
+        if (prm != null) {
+            prm.add_endRequest(function (sender, e) {
+                if (sender._postBackSettings.panelsToUpdate != null) {                        
+                    $('.solo-enteros').keydown(function (e) {
+                        //if (e.which.toString().length > 3) {
+                        //    e.preventDefault();
+                        //    return;
+                        //}
+                        if (e.shiftKey) {
+                            return false;
+                        }
+                        const teclasHabilitadas = [8, 9, 37, 39, 46];
+                        /*
+                        8 backspace
+                        9 tab
+                        37 flecha izq
+                        39 flecha der
+                        46 supr
+                        48-57 numeros teclado alfabético
+                        96-105 numeros numericpad*/
+                        if (e.keyCode >= 48 && e.keyCode <= 57 || e.keyCode >= 96 && e.keyCode <= 105 || teclasHabilitadas.includes(e.keyCode)) {
+                        }
+                        else {
+                            return false;
+                        }
+                    });
+
+                    $('.solo-enteros').on('blur', function (event) {
+                        var elemento = event.currentTarget;//se obtiene el elemento
+                        if (elemento != null) {
+                            var strTelefono = elemento.value;//Se obtiene la cadena de texto
+                            var format_regex = /^\d+$/;//Formato solo numeros
+                            if (!format_regex.test(strTelefono)) {
+                                elemento.value = "";//Se vacia el textbox
+                                return;
+                            }
+                            else {
+                                elemento.value=elemento.value.replace(/^[0]+/g, "");//Se eliminan los 0 a la izquierda
+                            }
+                        }
+                    });
+                }
+            });
+        };
+
+        //modal SweetAlert para cancelar la acción en curso
+        function confirmCancel(accionEnProceso, pathDestino) {
+            swal({
+                title: "No ha terminado de " + accionEnProceso,
+                text: "¿Está seguro que desea cancelar el registro?",
+                icon: "warning",
+                buttons: ["Continuar Editando", "Salir"],
+                dangerMode: true,
+            })
+                .then((cancelar) => {
+                    if (cancelar) {
+                        window.location = pathDestino;
+                    }
+                });
+        }
+        ////modal SweetAlert para cerrar el modal
+        //function confirmCancelModal(accionEnProceso) {
+        //    swal({
+        //        title: "No ha terminado de " + accionEnProceso,
+        //        text: "¿Está seguro que desea cancelar el registro?",
+        //        icon: "warning",
+        //        buttons: ["Continuar Editando", "Salir"],
+        //        dangerMode: true,
+        //    })
+        //        .then((cancelar) => {
+        //            if (cancelar) {
+        //                var myModal = $('.modalToHide');
+        //                myModal.hide();
+        //            }
+        //        });
+        //}
+        function pageLoad() {
+
+            $(".ddlTipoDoc").change(function () {
+                var txt = $(".txtNumDoc");
+                if ($(this).val() != '0') {
+                    //txt.prop("disabled", false);
+                    txt.focus();
+                }
+                else {
+                    //txt.val('');
+                    //txt.value = '';
+                    //txt.prop("disabled", true);
+                }
+            });
+        }
+
+        $(document).ready(function () {
+            $(function () {
+                $('#modalSpinner').on('show.bs.modal', function () {
+                    var myModal = $(this);
+                    clearTimeout(myModal.data('hideInterval'));
+                    $('.modal-backdrop:last').addClass('second-backdrop');
+                    myModal.data('hideInterval', setTimeout(function () {
+                        myModal.modal('hide');
+                        $('.modal-backdrop:first').removeClass('second-backdrop');
+                    }, 90000));
+                });
+            });
+        });
+    </script>
+
+
+</body></html>

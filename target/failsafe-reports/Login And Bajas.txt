@@ -1,0 +1,34 @@
+-------------------------------------------------------------------------------
+Test set: Login And Bajas
+-------------------------------------------------------------------------------
+Tests run: 5, Failures: 0, Errors: 5, Skipped: 0, Time elapsed: 3.239 s <<< FAILURE! - in Login And Bajas
+Login And Bajas. #1  Time elapsed: 2.493 s  <<< ERROR!
+net.serenitybdd.core.exceptions.StepInitialisationException: Failed to create step library for VisualizacionesAltas:Failed to create step library for WebElementFacade:Could not create type
+Caused by: net.serenitybdd.core.exceptions.StepInitialisationException: Failed to create step library for WebElementFacade:Could not create type
+Caused by: java.lang.IllegalArgumentException: Could not create type
+Caused by: java.lang.IllegalArgumentException: None of [public static java.lang.Object net.thucydides.core.steps.ProxyConfiguration$InterceptorDispatcher.intercept(java.lang.Object,java.lang.reflect.Method,java.lang.Object[],java.lang.Object,net.thucydides.core.steps.Interceptor,java.lang.reflect.Method) throws java.lang.Throwable] allows for delegation from public abstract java.lang.Object org.openqa.selenium.TakesScreenshot.getScreenshotAs(org.openqa.selenium.OutputType) throws org.openqa.selenium.WebDriverException
+
+Login And Bajas. #2  Time elapsed: 0.187 s  <<< ERROR!
+net.serenitybdd.core.exceptions.StepInitialisationException: Failed to create step library for VisualizacionesAltas:Failed to create step library for WebElementFacade:Could not create type
+Caused by: net.serenitybdd.core.exceptions.StepInitialisationException: Failed to create step library for WebElementFacade:Could not create type
+Caused by: java.lang.IllegalArgumentException: Could not create type
+Caused by: java.lang.IllegalArgumentException: None of [public static java.lang.Object net.thucydides.core.steps.ProxyConfiguration$InterceptorDispatcher.intercept(java.lang.Object,java.lang.reflect.Method,java.lang.Object[],java.lang.Object,net.thucydides.core.steps.Interceptor,java.lang.reflect.Method) throws java.lang.Throwable] allows for delegation from public abstract java.lang.Object org.openqa.selenium.TakesScreenshot.getScreenshotAs(org.openqa.selenium.OutputType) throws org.openqa.selenium.WebDriverException
+
+Login And Bajas. #3  Time elapsed: 0.101 s  <<< ERROR!
+net.serenitybdd.core.exceptions.StepInitialisationException: Failed to create step library for VisualizacionesAltas:Failed to create step library for WebElementFacade:Could not create type
+Caused by: net.serenitybdd.core.exceptions.StepInitialisationException: Failed to create step library for WebElementFacade:Could not create type
+Caused by: java.lang.IllegalArgumentException: Could not create type
+Caused by: java.lang.IllegalArgumentException: None of [public static java.lang.Object net.thucydides.core.steps.ProxyConfiguration$InterceptorDispatcher.intercept(java.lang.Object,java.lang.reflect.Method,java.lang.Object[],java.lang.Object,net.thucydides.core.steps.Interceptor,java.lang.reflect.Method) throws java.lang.Throwable] allows for delegation from public abstract java.lang.Object org.openqa.selenium.TakesScreenshot.getScreenshotAs(org.openqa.selenium.OutputType) throws org.openqa.selenium.WebDriverException
+
+Login And Bajas. #4  Time elapsed: 0.142 s  <<< ERROR!
+net.serenitybdd.core.exceptions.StepInitialisationException: Failed to create step library for VisualizacionesAltas:Failed to create step library for WebElementFacade:Could not create type
+Caused by: net.serenitybdd.core.exceptions.StepInitialisationException: Failed to create step library for WebElementFacade:Could not create type
+Caused by: java.lang.IllegalArgumentException: Could not create type
+Caused by: java.lang.IllegalArgumentException: None of [public static java.lang.Object net.thucydides.core.steps.ProxyConfiguration$InterceptorDispatcher.intercept(java.lang.Object,java.lang.reflect.Method,java.lang.Object[],java.lang.Object,net.thucydides.core.steps.Interceptor,java.lang.reflect.Method) throws java.lang.Throwable] allows for delegation from public abstract java.lang.Object org.openqa.selenium.TakesScreenshot.getScreenshotAs(org.openqa.selenium.OutputType) throws org.openqa.selenium.WebDriverException
+
+Login And Bajas. #5  Time elapsed: 0.123 s  <<< ERROR!
+net.serenitybdd.core.exceptions.StepInitialisationException: Failed to create step library for VisualizacionesAltas:Failed to create step library for WebElementFacade:Could not create type
+Caused by: net.serenitybdd.core.exceptions.StepInitialisationException: Failed to create step library for WebElementFacade:Could not create type
+Caused by: java.lang.IllegalArgumentException: Could not create type
+Caused by: java.lang.IllegalArgumentException: None of [public static java.lang.Object net.thucydides.core.steps.ProxyConfiguration$InterceptorDispatcher.intercept(java.lang.Object,java.lang.reflect.Method,java.lang.Object[],java.lang.Object,net.thucydides.core.steps.Interceptor,java.lang.reflect.Method) throws java.lang.Throwable] allows for delegation from public abstract java.lang.Object org.openqa.selenium.TakesScreenshot.getScreenshotAs(org.openqa.selenium.OutputType) throws org.openqa.selenium.WebDriverException
+
